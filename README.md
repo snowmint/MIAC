@@ -86,12 +86,14 @@
     ![alt text](image-2.png)
     After select your system environment then you can copy paste the command below to download the CUDA toolkits as you need.
 
-    ### CuDNN
+    ### ‼️Activate the virtual environment first
+
+    ### CuDNN (In virtual env)
     - Install CuDNN (pick one method to install)
         - conda: `conda install nvidia::cudnn cuda-version=12`
         - pip: `pip install nvidia-cudnn`
 
-    ### Pytorch
+    ### Pytorch (In virtual env)
     - Go to `https://pytorch.org` check which version of Pytorch you're GPU can support. Currently it would be Pytorch with CUDA 12.6 support.
     ![alt text](image-1.png)
     Use the command that provide to install the Pytorch.
