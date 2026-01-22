@@ -76,7 +76,9 @@
 
 
 
-- **Model Training Preparation**
+---
+
+- **Model Training Preparation (If needed)**
     - Use `nvidia-smi` to check GPU support's CUDA version on the right-top corner. It shows 12.7 below.
     ![alt text](image.png)
 
